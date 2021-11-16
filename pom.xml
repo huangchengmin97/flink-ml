@@ -257,6 +257,11 @@ under the License.
             </executions>
           </plugin>
           <plugin>
+             <groupId>edu.illinois</groupId>
+             <artifactId>nondex-maven-plugin</artifactId>
+             <version>1.1.2</version>
+          </plugin>
+          <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-javadoc-plugin</artifactId>
             <executions>
@@ -281,6 +286,11 @@ under the License.
                 <arguments>${arguments} -Psonatype-oss-release</arguments>
               </configuration>
             </plugin>
+            <plugin>
+             <groupId>edu.illinois</groupId>
+             <artifactId>nondex-maven-plugin</artifactId>
+             <version>1.1.2</version>
+          </plugin>
           </plugins>
         </pluginManagement>
       </build>
